@@ -1,0 +1,20 @@
+
+menuconfig EXAMPLE_MODULE
+	bool "Whether to incorporte example module into the application or not"
+	help
+	  Uses example module if chosen.
+
+if EXAMPLE_MODULE
+
+
+config EXAMPLE_MODULE_CONF
+	bool "Some example conf option"
+	default y
+	help
+	  Some example conf option
+
+rsource "Kconfig.other_conf"
+
+endif # EXAMPLE_MODULE
+	  
+	

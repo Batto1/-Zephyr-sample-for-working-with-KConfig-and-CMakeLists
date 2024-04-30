@@ -1,0 +1,13 @@
+	  
+	  
+config EXAMPLE_NUMERIC_CONF_1
+	int "Some numeric configuration"
+	default 123
+	help
+	  Some numeric configuration
+
+config EXAMPLE_NUMERIC_CONF_2
+	int "Some numeric configuration"
+	default 123
+	help
+	  Some numeric configuration

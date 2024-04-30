@@ -1,0 +1,18 @@
+# Subsystem configuration options
+
+# Copyright (c) 2016-2017 Intel Corporation
+# Copyright (c) 2021 Nordic Semiconductor
+# SPDX-License-Identifier: Apache-2.0
+source "Kconfig.zephyr"
+
+
+
+config CUSTOM_CONFIG_EXAMPLE
+	bool "Custom config example"
+	help
+	  Custom config example for trying to from nested Kconfig.
+	  
+
+
+rsource "src/Kconfig"  
+	 
