@@ -1,6 +1,6 @@
 
 
-menu "src"
+menu "app"
 
 rsource "example_module/Kconfig"
 

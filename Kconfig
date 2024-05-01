@@ -14,5 +14,5 @@ config CUSTOM_CONFIG_EXAMPLE
 	  
 
 
-rsource "src/Kconfig"  
+rsource "app/Kconfig"  
 	 
