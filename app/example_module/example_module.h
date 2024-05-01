@@ -14,7 +14,7 @@ extern "C" {
 #endif
 
 
-#include <inttypes.h>
+#include <stdbool.h>
 #include <zephyr/kernel.h>
 
 bool Return_CONFIG_EXAMPLE_MODULE_CONF(void);

@@ -1,3 +1,6 @@
+
+#include <stdbool.h>
+
 #include "example_module.h"
 
 #include "zephyr/logging/log.h"
