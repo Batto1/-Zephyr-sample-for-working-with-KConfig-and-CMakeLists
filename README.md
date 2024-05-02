@@ -6,11 +6,12 @@ Dummy module file given inside the nested file (at app/example_module) self conf
 
 ### Building and running
 
-- nRF Connect SDK is used when building and is run with nRF52840DK board. SDK and Toolchain version used: 2.6.0
-- Should be able to be built without nRF Connect SDK and with Zephyr only as. Other supported boards can be used, too. Further explanation in repository given in References section can be used for further detail.
+- nRF Connect SDK is used when building and is application is run with nRF52840DK board. SDK and Toolchain version used: 2.6.0
+- Should be able to be built without nRF Connect SDK and with Zephyr only. Other supported boards can be used, too. Further explanation in repository given in References section can be used for further detail.
 
 
 ### References
 
 - made with the help of this [more detailed example application][more_detailed_example_application].
-[more_detailed_example_application]: https://github.com/zephyrproject-rtos/example-application/tree/
+
+[more_detailed_example_application]: https://github.com/zephyrproject-rtos/example-application
