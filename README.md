@@ -1,5 +1,10 @@
 # Zephyr sample for working with KConfig and CMakeLists
-This repository contains a Zephyr dummy example to simply showcase how KConfig and CMakeLists files can be used for building the codebase existing in nested files and integrating configuration options both for the build process and the application utilization.
+This repository contains a dummy example of [Zephyr RTOS platform][zephyr_platform] to simply showcase how KConfig and CMakeLists files can be used for building the codebase existing in nested files. KConfig and CMakeLists help integrating configuration options both for the build process and the application's utilization.
+
+You can check out the following [Zephyr application template that I made][my_zephyr_template] where this structure is utilized as well as some other useful techniques.
+
+[zephyr_platform]: https://github.com/zephyrproject-rtos/zephyr
+[my_zephyr_template]: https://github.com/Batto1/Structured-Zephyr-App-Template
 
 ### Implemented Personal Approach On Involving Subfolders/Submodules Into The Project
 Dummy module file given inside the nested file (at app/example_module) self configures itself in the build process when some other upper level Kconfig and CMakeLists point to the module file to use its own Kconfig and CMakeLists files. This approach is taken beacuse it feels more intuitive that each module/submodule/driver/library etc. takes care of itself after its folder is decided to be included in the codebase in some other configuration file that's upper level on the folder tree (hierarchical) structure.

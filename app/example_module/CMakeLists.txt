@@ -12,3 +12,4 @@ if(CONFIG_EXAMPLE_MODULE)
     # line below makes possible to include the header files as << #include "example_module.h" >> in source files without specifying the folder location such as << #include "example_module/example_module.h" >>
     zephyr_include_directories(../example_module)
 endif()
+
